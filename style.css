@@ -1,0 +1,36 @@
+
+body {
+    background-color: darkcyan;
+}
+
+.product{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product img{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#prueb{
+    height: 300px;
+    width: 640px;
+    overflow: auto
+}
+
+
+.FixedHeightContainer
+{
+  float:right;
+  height: 250px;
+  width:250px; 
+  padding:0px;}
+
+.prueba1{
+    margin-top: 3px;
+}
