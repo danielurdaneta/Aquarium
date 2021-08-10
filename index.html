@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <title>Aquarium Prject</title>
+    
+    <title>Aquarium Project</title>
 </head>
 <body>
+    
     <div class="container">
         <div class="row">
             <div class = "col-md-12 jumbotron text-center">
@@ -18,26 +19,36 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
-            <div class = "col-md-3 bg-light">
-                <form class="bg-light">
-                    <p>Filter image by date</p>
-                    <ul class="list-group ">
-                        <li class="list-group-item ">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="01/01/2020" id="datetime">
+            <div class="col-md-12">
+                <p class="words">The purpose of this blog is to show how our aquarium evolve over the months and how it went from being a simple fish tank to become a whole ecosystem. Our tank was set up on December of 2020, it is a 10 gallon Waterbox with a Fluval nano light and a  Eheim 150W heater. <br><br> There have been different plants and fish that have lived in the aquarium , some of them thrived and some of them not, below you can filter month by month to see pictures of the aquarium as well as to see which inhabitants lived in there at that given moment.br <br><br></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class = "col-md-3">
+                
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <label for="date" class="d-flex justify-content-center"><h6>Enter Date</h6> </label>
+                            <input type="text" placeholder="01/01/2020" id="d   atetime" class="d-flex justify-content-center">
                         </li>
                     </ul>
-                    <p><a class="btn btn-info prueba1" id="filter-btn" role="button">Search Image</a></p>
-                </form>
+                    <p><a class="btn btn-info top-margin" id="filter-btn" role="button">Search Image</a></p>
+                
             </div>
+           
         </div>
     </div>
     <br>
     <div class="container">
         <div class="row">
-            <div class="FixedHeightContainer", id="prueb">
+            <div class='bottom-margin' id="innerScroll">
                 <div class="product">
                 </div>
             </div>
@@ -46,6 +57,29 @@
             </div>
         </div>
     </div>
+
+    <div class="container bottom-margin">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active words" id="nav-home-tab" data-toggle="tab" href="#nav-animal" role="tab" aria-controls="nav-home" aria-selected="true">Animals</a>
+                <a class="nav-item nav-link words" id="nav-profile-tab" data-toggle="tab" href="#nav-plant" role="tab" aria-controls="nav-profile" aria-selected="false">Plants</a>
+
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-animal" role="tabpanel" aria-labelledby="nav-home-tab">
+
+            </div>
+            <div class="tab-pane fade" id="nav-plant" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="data.js"></script>
     <script src="app.js"></script>

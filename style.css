@@ -1,8 +1,13 @@
 
 body {
-    background-color: darkcyan;
+    background-color: rgb(0, 92, 92);
 }
 
+.words{
+    color: #f5f5f5;
+    font-size: larger;
+    font-family: Helvetica;
+}
 .product{
     width: 100%;
     padding: 0 10px;
@@ -13,24 +18,54 @@ body {
 .product img{
     width: 250px;
     height: 200px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
 }
 
-#prueb{
-    height: 300px;
-    width: 640px;
+#innerScroll{
+    height: 400px;
+    width: 620px;
     overflow: auto
 }
 
 
-.FixedHeightContainer
-{
-  float:right;
-  height: 250px;
-  width:250px; 
-  padding:0px;}
-
-.prueba1{
-    margin-top: 3px;
+.bottom-margin{
+    margin-bottom: 40px;
 }
+
+.top-margin{
+    margin-top: 10px;
+}
+#filter-btn {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.fixed-image img{
+
+    width: 150px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+
+}
+
+
+
+a:hover {
+    color: rgb(152, 231, 231);
+  }
+
+ #nav-tabContent{
+     margin-top: 50px;
+ }
+
+ input {
+    display: inline-block;
+    float: center;
+  }
