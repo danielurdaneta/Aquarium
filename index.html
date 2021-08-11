@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/css/style.css">
     
     <title>Aquarium Project</title>
 </head>
@@ -23,20 +23,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p class="words">The purpose of this blog is to show how our aquarium evolve over the months and how it went from being a simple fish tank to become a whole ecosystem. Our tank was set up on December of 2020, it is a 10 gallon Waterbox with a Fluval nano light and a  Eheim 150W heater. <br><br> There have been different plants and fish that have lived in the aquarium , some of them thrived and some of them not, below you can filter month by month to see pictures of the aquarium as well as to see which inhabitants lived in there at that given moment.br <br><br></p>
+                <p class="words">The purpose of this blog is to show how our aquarium evolve over the months and how it went from being a simple fish tank to become a whole ecosystem. Our tank was set up on December of 2020, it is a 10 gallon Waterbox with a Fluval nano light and a  Eheim 150W heater. <br><br> There have been different plants and fish that have lived in the aquarium , some of them thrived and some of them not, below you can filter month by month to see pictures of the aquarium as well as to see which inhabitants lived in there at that given moment.br <br></p>
+                <hr size="5" width="100%" color= 'white' >
+                <br>
             </div>
         </div>
+        
     </div>
-
+    
     <div class="container">
-        <div class="row justify-content-md-center">
+        <div class="row" id="description">
             <div class = "col-md-3">
                 
                     
                     <ul class="list-group">
                         <li class="list-group-item">
                             <label for="date" class="d-flex justify-content-center"><h6>Enter Date</h6> </label>
-                            <input type="text" placeholder="01/01/2020" id="d   atetime" class="d-flex justify-content-center">
+                            <input type="text" placeholder="12/2019" id="datetime">
                         </li>
                     </ul>
                     <p><a class="btn btn-info top-margin" id="filter-btn" role="button">Search Image</a></p>
@@ -81,7 +84,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

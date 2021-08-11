@@ -1,26 +1,29 @@
 
-imgData = My_array
-
+imgData = aqPhotos
+DescData = aqDescription
 function handleClick(){
     console.log('button is working')
     let date = d3.select("#datetime").property('value');
-    let filteredData = imgData;
-    console.log(date)
+    let imgFilteredData = imgData;
+    let descFilteredData = DescData
 
     if (date) {
-        filteredData = filteredData.filter(row => row.datetime === date);
+        imgFilteredData = imgFilteredData.filter(row => row.datetime === date);
+        descFilteredData = descFilteredData.filter(row => row.datetime === date)
     }
     else{
-        filteredData = []
+        imgFilteredData = []
+        descFilteredData = []
     };
    
-    printimg(filteredData)
     
+    printImg(imgFilteredData)
+    printDescription(descFilteredData)
 }
 
 var imgList = d3.select('.product')
 
-function printimg(data){
+function printImg(data){
 console.log(data)
     imgList.html("")
     data.forEach((row)=> {
@@ -73,9 +76,20 @@ function change(img){
     selector2 = d3.select('#big')
     selector2
     .attr('src', src )
-    .attr('class', 'rounded')
-    document.getElementById('big').style.height = "400px"
-    document.getElementById('big').style.width = "500px"
+    .attr('class', 'rounded border border-dark')
+    document.getElementById('big').style.height = "570px"
+    document.getElementById('big').style.width = "450px"
+}
+
+function printDescription(data){
+
+    data.forEach((row) => {
+    desc = d3.select('#description')
+            .append('div')
+            .attr('class', 'col-md-9 words')
+            .append('p')
+            .text(row.description)
+        })
 }
 
 

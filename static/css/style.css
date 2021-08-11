@@ -16,16 +16,17 @@ body {
     flex-wrap: wrap;
 }
 .product img{
-    width: 250px;
-    height: 200px;
+    width: 216px;
+    height: 265px;
     margin-bottom: 20px;
     margin-right: 40px;
 }
 
 #innerScroll{
-    height: 400px;
-    width: 620px;
-    overflow: auto
+    height: 570px;
+    width: 550px;
+    overflow: auto;
+    margin-right: 50px
 }
 
 
@@ -65,7 +66,14 @@ a:hover {
      margin-top: 50px;
  }
 
- input {
-    display: inline-block;
-    float: center;
-  }
+ hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: rgb(152, 231, 231); /* old IE */
+    background-color: rgb(152, 231, 231); /* Modern Browsers */
+}
+
+input{
+   text-align:center;
+}
