@@ -30,7 +30,7 @@ console.log(data)
         imgList
         .append("img")
         .attr('src', row.img)
-        .attr('class', 'img-thumbnail')
+        .attr('class', 'black-border rounded')
         .attr('onClick', 'change(this)')
     })
 
@@ -76,9 +76,9 @@ function change(img){
     selector2 = d3.select('#big')
     selector2
     .attr('src', src )
-    .attr('class', 'rounded border border-dark')
-    document.getElementById('big').style.height = "570px"
-    document.getElementById('big').style.width = "450px"
+    .attr('class', 'rounded black-border border-dark')
+    document.getElementById('big').style.height = "590px"
+    document.getElementById('big').style.width = "470px"
 }
 
 function printDescription(data){

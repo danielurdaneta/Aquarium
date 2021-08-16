@@ -1,12 +1,12 @@
 
 body {
-    background-color: rgb(0, 92, 92);
+    background-color: rgb(0, 92, 92) ;
 }
 
 .words{
     color: #f5f5f5;
     font-size: larger;
-    font-family: Helvetica;
+    font-family: Tahoma;
 }
 .product{
     width: 100%;
@@ -19,12 +19,12 @@ body {
     width: 216px;
     height: 265px;
     margin-bottom: 20px;
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 #innerScroll{
-    height: 570px;
-    width: 550px;
+    height: 590px;
+    width: 525px;
     overflow: auto;
     margin-right: 50px
 }
@@ -72,6 +72,11 @@ a:hover {
     /* Set the hr color */
     color: rgb(152, 231, 231); /* old IE */
     background-color: rgb(152, 231, 231); /* Modern Browsers */
+}
+
+.black-border {
+    border: 3px solid rgb(59, 51, 51);
+    
 }
 
 input{
