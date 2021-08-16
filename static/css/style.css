@@ -91,3 +91,8 @@ input{
 span {
     color: rgb(152, 231, 231);
 }
+
+.title{
+    color: rgb(152, 231, 231);
+    font-family: Tahoma;
+}
