@@ -32,7 +32,7 @@ var aqPhotos = [{
 },
 {
     datetime: "01/2021",
-    img: "static/images/images1/img4.jpg"
+    img: "/static/images/images1/img4.jpg"
 },
 {
     datetime: "01/2021",
