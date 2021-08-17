@@ -12,7 +12,7 @@ var aqPhotos = [{
 },
 {
     datetime: "12/2020",
-    img: "static/images/images0/img4.jpg"
+    img: "static/images/images0/img4.JPG"
 },
 {
     datetime: "12/2020",
@@ -20,7 +20,7 @@ var aqPhotos = [{
 },
 {
     datetime: "01/2021",
-    img: "static/images/images1/img1.jpg"
+    img: "static/images/images1/img1.JPG"
 },
 {
     datetime:"01/2021",
@@ -28,11 +28,11 @@ var aqPhotos = [{
 },
 {
     datetime: "01/2021",
-    img: "static/images/images1/img3.jpg"
+    img: "static/images/images1/img3.JPG"
 },
 {
     datetime: "01/2021",
-    img: "/static/images/images1/img4.jpg"
+    img: "static/images/images1/img4.JPG"
 },
 {
     datetime: "01/2021",
@@ -40,7 +40,7 @@ var aqPhotos = [{
 },
 {
     datetime: "01/2021",
-    img: "static/images/images1/img6.jpg"
+    img: "static/images/images1/img6.JPG"
 }
 ] 
 
