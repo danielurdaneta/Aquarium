@@ -40,7 +40,6 @@ body {
 #filter-btn {
     width: 100%;
     height: 40px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,4 +94,26 @@ span {
 .title{
     color: rgb(152, 231, 231);
     font-family: Tahoma;
+}
+
+.error{
+    color: coral;
+    font-family: Tahoma
+}
+
+.container input {
+    width: 100%;
+    
+  }
+
+.jumbotron{
+    background-image: url("../images/bgimg6.jpg");
+    background-size: 100% 180%;
+    text-align: center;}
+
+
+
+#inhabDesc{
+    padding-bottom: 170px;
+    padding-right: 30px;
 }

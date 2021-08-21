@@ -22,10 +22,12 @@ function handleClick(){
         descFilteredData = []
         inhabFilteredData = []
         
-        handleError()
     };
    
-    
+    if (imgFilteredData.length === 0) {
+        handleError()
+    }
+
     printImg(imgFilteredData)
     printDescription(descFilteredData)
     printInhabitants(inhabFilteredData)
@@ -34,6 +36,9 @@ function handleClick(){
 
 // Function that print out all the aquarium images for that month
 function printImg(data){
+
+    if(data.length >= 1) {
+    d3.select('#error').html('')}
 
     var imgList = d3.select('.product')
     imgList.html("")
@@ -51,10 +56,18 @@ function printImg(data){
 
 // Function that expand image size when selected 
 function change(img){
+
     var src = img.getAttribute('src')
-    console.log(src)
-    selector2 = d3.select('#big')
-    selector2
+
+
+    bigImg = d3.select('#bigimg')
+    bigImg.html('')
+
+    bigImg
+        .append('img')
+        .attr('id', 'big')
+
+    big = d3.select('#big')
         .attr('src', src )
         .attr('class', 'rounded black-border border-dark')
     document.getElementById('big').style.height = "590px"
@@ -64,50 +77,55 @@ function change(img){
 
 //Function that print the description of the selected month
 function printDescription(data){
+    monthTitle = d3.select('#news') 
+    monthTitle.html("")
 
     monthDesc = d3.select('#description')
     monthDesc.html("")
 
     data.forEach((row) => {
-        monthDesc
-            .append('p')
-            .text(row.description)
-        })
+
+    monthTitle 
+        .append('h2')
+        .attr('class', 'title')
+        .text(row.title)
+
+    monthDesc
+        .append('p')
+        .text(row.description)
+    })
+
 }
 
 // Function that print out all the inhabitant's pictures and descriptions for that specific month
 function printInhabitants(data) {
    
-    d3.select('#nav-plant').html('')
-    d3.select('#nav-animal').html('')
+    d3.select('#plantRow').html('')
+    d3.select('#animalRow').html('')
 
     data[0].inhabitants.forEach((row)=>{
         
         if (row.type === 'Plant') {
-            tab = d3.select('#nav-plant')
+            tab = d3.select('#plantRow')
         }
         else {
-            tab = d3.select('#nav-animal')
+            tab = d3.select('#animalRow')
         }
 
-        var tabContainer = tab.append('div')
-                                .attr('class', 'container')
 
-        var tabRow = tabContainer
-                        .attr('class', 'row')
-
-
-        tabRow
+        tab
         .append('div')
         .attr('class', 'col-md-3 fixed-image')
             .append('img')
             .attr('src', row.img)
             .attr('class', 'black-border rounded')
             
-        tabRow
+        tab
         .append('div')
-            .attr('class', 'col-md-6 words')
+            .attr('class', 'col-md-3 words')
+            .attr('id', 'inhabDesc')
         .append('p')
+            
             .html(row.description)
     })
 
@@ -132,17 +150,22 @@ function init(){
 
 }
 
+// Function that erase everything and print an error when no photos were found.
 function handleError(){
-    title = d3.select('#news')
-    title.html("")
 
-    layout = d3.select('#layout')
-    layout.html("")
-    layout
-        .append('div')
-        .attr('class', 'col-md-12 words')
+    d3.select('#news').html("")
+    d3.select('.product').html('')
+    d3.select('#description').html('')
+    d3.select('#plantRow').html('')
+    d3.select('#animalRow').html('')
+    d3.select('#bigimg').html('')
+
+    error = d3.select('#error')
+    error.html('')
+    error
+        .attr('class', 'error')
         .append('p')
-        .html('<h1> Sorry, no photos found :( </h1>')
+        .html('<h1> Sorry, no photos found :(  . Try a different date! </h1>')
 }
 
 // Initialize init function
