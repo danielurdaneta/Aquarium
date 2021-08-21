@@ -107,9 +107,11 @@ span {
   }
 
 .jumbotron{
-    background-image: url("../images/bgimg6.jpg");
-    background-size: 100% 180%;
-    text-align: center;}
+    background-image: url("../images/bgimg2.png");
+    background-size: 100% 120%;
+    text-align: center;
+    min-height: 190px;
+}
 
 
 

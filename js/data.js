@@ -48,7 +48,7 @@ var aqPhotos = [{
 },
 {
     datetime:"02/2021",
-    img: "static/images/images2/img2.jpg"
+    img: "static/images/images2/img2.JPG"
 },
 {
     datetime: "02/2021",
@@ -60,27 +60,27 @@ var aqPhotos = [{
 },
 {
     datetime: "02/2021",
-    img: "static/images/images2/img5.jpg"
+    img: "static/images/images2/img5.JPG"
 },
 {
     datetime: "02/2021",
-    img: "static/images/images2/img6.jpg",
+    img: "static/images/images2/img6.JPG",
 },
 {
     datetime: "02/2021",
-    img: "static/images/images2/img7.jpg",
+    img: "static/images/images2/img7.JPG",
 },
 {
     datetime: "03/2021",
-    img: "static/images/images3/img1.jpg",
+    img: "static/images/images3/img1.JPG",
 },
 {
     datetime: "03/2021",
-    img: "static/images/images3/img2.jpg",
+    img: "static/images/images3/img2.JPG",
 },
 {
     datetime: "03/2021",
-    img: "static/images/images3/img3.jpg",
+    img: "static/images/images3/img3.JPG",
 },
 {
     datetime: "03/2021",
@@ -92,11 +92,11 @@ var aqPhotos = [{
 },
 {
     datetime: "03/2021",
-    img: "static/images/images3/img6.jpg",
+    img: "static/images/images3/img6.JPG",
 },
 {
     datetime: "03/2021",
-    img: "static/images/images3/img7.jpg",
+    img: "static/images/images3/img7.JPG",
 }
 ] 
 
