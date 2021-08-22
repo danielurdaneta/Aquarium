@@ -47,7 +47,7 @@ function printImg(data){
         .append("img")
         .attr('src', row.img)
         .attr('id', 'imagen')
-        .attr('class', 'black-border rounded')
+        .attr('class', 'black-border rounded center')
         .attr('onClick', 'change(this)')
     })
 
@@ -69,8 +69,8 @@ function change(img){
 
     big = d3.select('#big')
         .attr('src', src )
-        .attr('class', 'rounded black-border border-dark')
-    document.getElementById('big').style.height = "590px"
+        .attr('class', 'rounded black-border border-dark img-fluid bottom-margin')
+    document.getElementById('big').style.height = "100%"
     document.getElementById('big').style.width = "470px"
 }
 
