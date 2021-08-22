@@ -44,10 +44,14 @@ function printImg(data){
     imgList.html("")
     data.forEach((row)=> {
         imgList
+        .append("div")
+        .attr("class", "slide")
+        
+        imgList
         .append("img")
         .attr('src', row.img)
         .attr('id', 'imagen')
-        .attr('class', 'black-border rounded center')
+        .attr('class', 'black-border rounded')
         .attr('onClick', 'change(this)')
     })
 
@@ -70,8 +74,7 @@ function change(img){
     big = d3.select('#big')
         .attr('src', src )
         .attr('class', 'rounded black-border border-dark img-fluid bottom-margin')
-    document.getElementById('big').style.height = "100%"
-    document.getElementById('big').style.width = "470px"
+  
 }
 
 

@@ -13,7 +13,7 @@ body {
     width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
 }
 .product img{
@@ -23,11 +23,17 @@ body {
     margin-right: 20px;
 }
 
-#innerScroll{
+.innerScroll{
     height: 590px;
     width: 100%;
-    overflow: auto;
-    margin-right: 50px
+    overflow:auto;
+    
+ 
+}
+
+.slide{
+
+    display: inline-block;
 }
 
 
@@ -113,14 +119,27 @@ span {
     background-position: top center;
     height: 100%;
     
-        
    
 }
 
-center {
-    float: right;
+#big {
+    height: 590px;
+    width: 470px;
 }
 
+@media screen and (max-width: 700px) and (min-width: 1px){
+
+    .innerScroll{
+        white-space: nowrap;
+        height: 280px;
+    }
+
+    #big{
+        height: 100%;
+    }
+
+ 
+}
 
 
 
