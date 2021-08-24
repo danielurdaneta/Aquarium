@@ -142,8 +142,8 @@ span {
         height: 500px;
         width: 100%;
         overflow:auto;
-        float:right
-
+        padding: 30px;
+        
     }
 
     #plantRow{
