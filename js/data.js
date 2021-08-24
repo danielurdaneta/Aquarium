@@ -104,7 +104,7 @@ var aqPhotos = [{
 },
 {
     datetime: "04/2021",
-    img: "static/images/images4/img2.jpg"
+    img: "static/images/images4/img2.JPG"
 },
 {
     datetime: "04/2021",
@@ -112,15 +112,15 @@ var aqPhotos = [{
 },
 {
     datetime: "04/2021",
-    img: "static/images/images4/img4.jpg"
+    img: "static/images/images4/img4.JPG"
 },
 {
     datetime: "04/2021",
-    img: "static/images/images4/img5.jpg"
+    img: "static/images/images4/img5.JPG"
 },
 {
     datetime: "04/2021",
-    img: "static/images/images4/img6.jpg"
+    img: "static/images/images4/img6.JPG"
 },
 {
     datetime: "04/2021",
@@ -128,7 +128,59 @@ var aqPhotos = [{
 },
 {
     datetime: "05/2021",
-    img: "static/images/images4/img7.jpg"
+    img: "static/images/images5/img1.jpeg"
+},
+{
+    datetime: "05/2021",
+    img: "static/images/images5/img2.jpeg"
+},
+{
+    datetime: "05/2021",
+    img: "static/images/images5/img3.jpeg"
+},
+{
+    datetime: "05/2021",
+    img: "static/images/images5/img4.jpeg"
+},
+{
+    datetime: "05/2021",
+    img: "static/images/images5/img5.jpeg"
+},
+{
+    datetime: "05/2021",
+    img: "static/images/images5/img6.jpeg"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img1.jpeg"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img1.jpg"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img2.jpg"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img3.jpg"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img4.jpg"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img5.JPG"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img6.jpg"
+},
+{
+    datetime: "06/2021",
+    img: "static/images/images6/img7.jpg"
 }
 ] 
 
