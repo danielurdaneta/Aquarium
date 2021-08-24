@@ -137,8 +137,11 @@ span {
     #big{
         height: 100%;
     }
+}
 
- 
+@font-face {
+    font-family: Tahoma;
+    src: url("trf.ttf") format('truetype');
 }
 
 

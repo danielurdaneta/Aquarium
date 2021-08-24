@@ -171,10 +171,22 @@ function handleError(){
         .html('<h1> Sorry, no photos found :(  . Try a different date! </h1>')
 }
 
+
+function handleEnter(){
+    
+if (d3.event.keyCode === 13) {
+    handleClick()
+}
+}
+
+
 // Initialize init function
 init()
 
 // Event listener
 d3.selectAll("#filter-btn").on("click", handleClick);
+
+//Event listener
+d3.select("body").on("keypress", handleEnter)
 
 
