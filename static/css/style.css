@@ -137,6 +137,24 @@ span {
     #big{
         height: 100%;
     }
+
+    #animalRow{
+        height: 500px;
+        width: 100%;
+        overflow:auto;
+        float:right
+
+    }
+
+    #plantRow{
+
+        height: 500px;
+        width: 100%;
+        overflow:auto;
+        float: right;
+
+
+    }
 }
 
 @font-face {
