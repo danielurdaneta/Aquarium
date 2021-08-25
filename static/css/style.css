@@ -127,7 +127,7 @@ span {
     width: 470px;
 }
 
-@media screen and (max-width: 700px) and (min-width: 1px){
+@media screen and (max-width: 765px) and (min-width: 1px){
 
     .innerScroll{
         white-space: nowrap;
@@ -136,6 +136,7 @@ span {
 
     #big{
         height: 100%;
+    
     }
 
     #animalRow{
@@ -156,6 +157,38 @@ span {
 
     }
 }
+
+@media screen and (max-width: 1200px) and (min-width: 765px) {
+
+    #big{
+        height: 100%;
+    
+    }
+
+    #animalRow{
+        height: 500px;
+        width: 100%;
+        overflow:auto;
+        float: right;
+    }
+
+    #plantRow{
+
+        height: 500px;
+        width: 100%;
+        overflow:auto;
+        float: right
+        
+
+    }
+
+    #plantRow p{
+    margin-right: 30px;
+    }
+}
+
+
+
 
 @font-face {
     font-family: Tahoma;

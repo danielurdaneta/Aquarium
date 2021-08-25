@@ -118,14 +118,15 @@ function printInhabitants(data) {
 
         tab
         .append('div')
-        .attr('class', 'col-md-3 fixed-image')
+        .attr('class', 'fixed-image col-sm-12 col-md-6 col-lg-4 col-xl-3')
             .append('img')
             .attr('src', row.img)
+            .attr('id', 'inhimg')
             .attr('class', 'black-border rounded')
             
         tab
         .append('div')
-            .attr('class', 'col-md-3 words')
+            .attr('class',  'words col-sm-12 col-md-6 col-lg-6 col-xl-3')
             .attr('id', 'inhabDesc')
         .append('p')
             
