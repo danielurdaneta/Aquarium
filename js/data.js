@@ -151,6 +151,10 @@ var aqPhotos = [{
     img: "static/images/images5/img6.jpeg"
 },
 {
+    datetime: "05/2021",
+    img: "static/images/images5/img7.jpg"
+},
+{
     datetime: "06/2021",
     img: "static/images/images6/img1.jpg"
 },
@@ -225,6 +229,14 @@ var aqPhotos = [{
 {
     datetime: "08/2021",
     img: "static/images/images8/img5.jpg"
+},
+{
+    datetime: "08/2021",
+    img: "static/images/images8/img6.jpg"
+},
+{
+    datetime: "08/2021",
+    img: "static/images/images8/img7.jpg"
 }
 
 ] 
@@ -587,7 +599,7 @@ var inhabitants = [{
         },
         {
             Specie: 'Water Sprite',
-            img: "static/images/inhab0/img4.jpg",
+            img: "static/images/inhab0/img26.jpg",
             description: '<span> Specie: </span> Water Sprite <br> <span> Placement: </span> Background <br> <span> Color: </span> Bright Green',
             type: 'Plant'
         },
@@ -617,7 +629,7 @@ var inhabitants = [{
         },
         {
             name: 'Otto Catfish',
-            img: "static/images/inhab0/img15.jpg",
+            img: "static/images/inhab0/img23.jpg",
             description: '<span> Name: </span> Otto <br> <span> Specie: </span> Otto Catfish <br> <span> Color: </span> Black',
             type: 'Animal'
         }
@@ -652,7 +664,7 @@ var inhabitants = [{
         },
         {
             Specie: 'Water Sprite',
-            img: "static/images/inhab0/img4.jpg",
+            img: "static/images/inhab0/img26.jpg",
             description: '<span> Specie: </span> Water Sprite <br> <span> Placement: </span> Background <br> <span> Color: </span> Bright Green',
             type: 'Plant'
         },
@@ -676,7 +688,7 @@ var inhabitants = [{
         },
         {
             name: 'Otto Catfish',
-            img: "static/images/inhab0/img15.jpg",
+            img: "static/images/inhab0/img23.jpg",
             description: '<span> Name: </span> Otto <br> <span> Specie: </span> Otto Catfish <br> <span> Color: </span> Black',
             type: 'Animal'
         },
@@ -718,7 +730,7 @@ var inhabitants = [{
         },
         {
             Specie: 'Water Sprite',
-            img: "static/images/inhab0/img4.jpg",
+            img: "static/images/inhab0/img26.jpg",
             description: '<span> Specie: </span> Water Sprite <br> <span> Placement: </span> Background <br> <span> Color: </span> Bright Green',
             type: 'Plant'
         },
@@ -742,7 +754,7 @@ var inhabitants = [{
         },
         {
             name: 'Otto Catfish',
-            img: "static/images/inhab0/img15.jpg",
+            img: "static/images/inhab0/img23.jpg",
             description: '<span> Name: </span> Otto <br> <span> Specie: </span> Otto Catfish <br> <span> Color: </span> Black',
             type: 'Animal'
         },
@@ -765,9 +777,9 @@ var inhabitants = [{
             type: 'Animal'
         },
         {
-            Specie: 'Java Fern',
-            img: "static/images/inhab0/img4.jpg",
-            description: '<span> Specie: </span> Java Fern <br> <span> Placement: </span> Attached to wood <br> <span> Color: </span> Dark Green',
+            Specie: 'Java Moss',
+            img: "static/images/inhab0/img25.jpg",
+            description: '<span> Specie: </span> Java Moss <br> <span> Placement: </span> Attached to wood <br> <span> Color: </span> Dark Green',
             type: 'Plant'
         }
         
@@ -801,7 +813,7 @@ var inhabitants = [{
         },
         {
             Specie: 'Water Sprite',
-            img: "static/images/inhab0/img4.jpg",
+            img: "static/images/inhab0/img26.jpg",
             description: '<span> Specie: </span> Water Sprite <br> <span> Placement: </span> Background <br> <span> Color: </span> Bright Green',
             type: 'Plant'
         },
@@ -825,7 +837,7 @@ var inhabitants = [{
         },
         {
             name: 'Otto Catfish',
-            img: "static/images/inhab0/img15.jpg",
+            img: "static/images/inhab0/img23.jpg",
             description: '<span> Name: </span> Otto <br> <span> Specie: </span> Otto Catfish <br> <span> Color: </span> Black',
             type: 'Animal'
         },
@@ -843,14 +855,14 @@ var inhabitants = [{
         },
         {
             name: 'Kuhli Loach',
-            img: "static/images/inhab0/img21.jpg",
+            img: "static/images/inhab0/img24.jpg",
             description: '<span> Name: </span> Kuhli <br> <span> Specie: </span> Kuhli Loach <br> <span> Color: </span> Black - Yellow',
             type: 'Animal'
         },
         {
-            Specie: 'Java Fern',
-            img: "static/images/inhab0/img4.jpg",
-            description: '<span> Specie: </span> Java Fern <br> <span> Placement: </span> Attached to wood or rock <br> <span> Color: </span> Dark Green',
+            Specie: 'Java Moss',
+            img: "static/images/inhab0/img25.jpg",
+            description: '<span> Specie: </span> Java Moss <br> <span> Placement: </span> Attached to wood or rock <br> <span> Color: </span> Dark Green',
             type: 'Plant'
         }
         
