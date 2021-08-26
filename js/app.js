@@ -172,7 +172,7 @@ function handleError(){
         .html('<h1> Sorry, no photos found :(  . Try a different date! </h1>')
 }
 
-
+// Function that filter when key 'Enter' is pressed
 function handleEnter(){
     
 if (d3.event.keyCode === 13) {

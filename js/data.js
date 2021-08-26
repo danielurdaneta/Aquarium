@@ -212,19 +212,19 @@ var aqPhotos = [{
 },
 {
     datetime: "08/2021",
-    img: "static/images/images8/img1.jpg"
+    img: "static/images/images8/img1.JPG"
 },
 {
     datetime: "08/2021",
-    img: "static/images/images8/img2.jpg"
+    img: "static/images/images8/img2.JPG"
 },
 {
     datetime: "08/2021",
-    img: "static/images/images8/img3.jpg"
+    img: "static/images/images8/img3.JPG"
 },
 {
     datetime: "08/2021",
-    img: "static/images/images8/img4.jpg"
+    img: "static/images/images8/img4.JPG"
 },
 {
     datetime: "08/2021",
