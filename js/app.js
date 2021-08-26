@@ -6,7 +6,7 @@ inhabData = inhabitants
 
 // Function created to filter all the dataset and activate the deployment functions
 function handleClick(){
-    console.log('button is working')
+    
     let date = d3.select("#datetime").property('value');
     let imgFilteredData = imgData;
     let descFilteredData = DescData
