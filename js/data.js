@@ -264,7 +264,7 @@ var aqDescription = [{
 {
     title: 'What happened this month?',
     datetime:'04/2021',
-    description: 'This month we lost our pleco fish, causing the brown algae to thrive, and we lost Mar, our orange Dwarf Gourami. We bougth a Golden Anubia with an uncommon disease called "Anubias rot" which killed our Anubia Congensis, a damaged "Scarlet Temple" plant, 10 red Neocardina Shrimp, 1 yellow Mystery Snail and a Red Rubin Sword Plant'
+    description: 'This month we lost our pleco fish, causing the brown algae to thrive, and we lost Mar, our orange Dwarf Gourami. We bougth a Golden Anubia with an uncommon disease called "Anubias rot" which killed our Anubia Congensis, a damaged "Scarlet Temple" plant, 10 red Neocardina Shrimp, 1 yellow Mystery Snail and a Red Rubin Sword Plant.'
 },
 {
     title: 'What happened this month?',
